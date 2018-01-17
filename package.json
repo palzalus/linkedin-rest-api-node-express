@@ -1,0 +1,38 @@
+{
+  "name": "crm",
+  "version": "1.0.0",
+  "description": "linkedin learning restful web api with node.js and express",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palzalus/linkedin-rest-api-node-express.git"
+  },
+  "keywords": [
+    "node.js",
+    "express",
+    "restful",
+    "web",
+    "api"
+  ],
+  "author": "Pascal Meers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palzalus/linkedin-rest-api-node-express/issues"
+  },
+  "homepage": "https://github.com/palzalus/linkedin-rest-api-node-express#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongoose": "^4.13.9",
+    "nodemon": "^1.14.11"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-0": "^6.24.1"
+  }
+}
